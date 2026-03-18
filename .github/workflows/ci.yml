@@ -1,0 +1,34 @@
+name: Feature Pipeline CI
+
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+
+      - name: Install dependencies
+        run: |
+          pip install great-expectations xgboost scikit-learn pandas pytest --quiet
+
+
+      - name: Run unit tests
+        run: pytest tests/ -v
+
+
+      - name: Validate feature engineering logic
+        run: python tests/test_feature_engineering.py
