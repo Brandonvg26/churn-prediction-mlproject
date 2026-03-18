@@ -118,18 +118,4 @@ All notebooks are idempotent — re-running after a compute quota reset produces
  
 ---
  
-## Project context
- 
-This is Project 1 of a 5-project portfolio series documenting a Sr. Data Engineer → ML Engineer transition.
- 
-| # | Project | Focus |
-|---|---|---|
-| **1** | **Feature Store + Training Pipeline** ← *this project* | Feature engineering · model lifecycle |
-| 2 | Real-time Inference API + Drift Monitor | Serving · latency · drift detection |
-| 3 | LLM Evaluation & Fine-tuning Harness | Evaluation design · LoRA · benchmarking |
-| 4 | Streaming Feature Pipeline + Online Model | Kafka · Flink · low-latency features |
-| 5 | Experiment Tracking + A/B Model Comparison | Reproducibility · hyperparameter tuning |
- 
----
- 
 *Stack versions: Databricks Free Edition (2025) · MLflow 3 · XGBoost 2.x · Great Expectations 1.x · Python 3.11*
