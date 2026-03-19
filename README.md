@@ -10,6 +10,13 @@
 Most data engineering portfolios stop at the Gold layer. This project continues past it: from a Delta table to a registered, versioned ML model in Unity Catalog — covering the feature-to-model handoff that ML engineer interviews focus on.
  
 ---
+
+## Dataset Source
+
+Dataset --- UCI Online Retail II
+Source -- https://archive.ics.uci.edu/dataset/502/online+retail+ii
+
+---
  
 ## Architecture
  
