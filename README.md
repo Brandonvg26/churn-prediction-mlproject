@@ -4,12 +4,6 @@
 > Predicts whether a customer will purchase again in the next 90 days using RFM features derived from transactional data — built end-to-end on a free, serverless stack.
  
 ---
- 
-## Why this project
- 
-Most data engineering portfolios stop at the Gold layer. This project continues past it: from a Delta table to a registered, versioned ML model in Unity Catalog — covering the feature-to-model handoff that ML engineer interviews focus on.
- 
----
 
 ## Dataset Source
 
